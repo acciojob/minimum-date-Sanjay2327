@@ -1,5 +1,8 @@
 function minDate(dates) {
   //write you code here
+	let min = dates.sort();
+	let pran = min.indexOf[0];
+	return pran;
 }
 
 // Do not change the code
