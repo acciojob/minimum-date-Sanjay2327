@@ -1,7 +1,7 @@
 function minDate(dates) {
   //write you code here
 	let copy = [...dates] ;
-	let min = copy.sort();
+	let min = copy.sort( (a,b) => new Date(a) - new Date(b));
 	return min[0];
 
 }
