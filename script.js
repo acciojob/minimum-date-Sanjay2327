@@ -2,8 +2,7 @@ function minDate(dates) {
   //write you code here
 	let copy = [...dates] ;
 	let min = copy.sort();
-	let pran = min.indexOf[0];
-	return pran;
+	return min[0];
 
 }
 
