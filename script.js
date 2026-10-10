@@ -1,8 +1,10 @@
 function minDate(dates) {
   //write you code here
-	let min = dates.sort();
+	let copy = [...dates] ;
+	let min = copy.sort();
 	let pran = min.indexOf[0];
 	return pran;
+
 }
 
 // Do not change the code
@@ -40,4 +42,4 @@ var dates = [
   "2023/03/30",
 ];
 
-alert(minDate(dates));
+// alert(minDate(dates));
